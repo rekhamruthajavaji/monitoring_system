@@ -1,0 +1,11 @@
+File Monitoring System
+
+This document is created for testing purposes.
+The system monitors files between source and destination folders.
+
+It checks:
+- Number of files
+- Types of files
+- Total file size
+
+This helps ensure that files are transferred correctly without any data loss.

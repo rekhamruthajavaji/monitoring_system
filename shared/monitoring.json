@@ -1,35 +1,159 @@
 {
     "servers": {
         "Server-B": {
-            "last_run": "2026-04-13 23:21:26",
-            "input": 3,
-            "output": 3,
+            "last_run": "2026-04-18 00:20:04",
+            "input": 5,
+            "output": 6,
+            "input_size": 10775,
+            "output_size": 4700458,
             "input_types": {
                 "pdf": 1,
+                "jpg": 2,
                 "txt": 1,
-                "jpg": 1
+                "epub": 1
             },
             "output_types": {
-                "pdf": 1,
-                "jpg": 1,
-                "txt": 1
+                "pdf": 2,
+                "txt": 3,
+                "png": 1
             },
+            "input_type_sizes": {
+                "pdf": 19,
+                "jpg": 9153,
+                "txt": 191,
+                "epub": 1412
+            },
+            "output_type_sizes": {
+                "pdf": 4563465,
+                "txt": 320,
+                "png": 136673
+            },
+            "input_files": [
+                {
+                    "name": "folder1\\file1.pdf",
+                    "size": 19
+                },
+                {
+                    "name": "folder1\\file2.jpg",
+                    "size": 9153
+                },
+                {
+                    "name": "folder1\\note.txt",
+                    "size": 191
+                },
+                {
+                    "name": "folder2\\file2.jpg",
+                    "size": 0
+                },
+                {
+                    "name": "folder2\\sample_book.epub",
+                    "size": 1412
+                }
+            ],
+            "output_files": [
+                {
+                    "name": "folderA\\file1.pdf",
+                    "size": 4411313
+                },
+                {
+                    "name": "folderA\\note.txt",
+                    "size": 19
+                },
+                {
+                    "name": "folderB\\file3.pdf",
+                    "size": 152152
+                },
+                {
+                    "name": "folderB\\note.txt",
+                    "size": 290
+                },
+                {
+                    "name": "folderB\\notes.txt",
+                    "size": 11
+                },
+                {
+                    "name": "folderB\\ts3603.png",
+                    "size": 136673
+                }
+            ],
             "status": "SUCCESS"
         },
         "Server-A": {
-            "last_run": "2026-04-13 23:21:12",
-            "input": 3,
-            "output": 3,
+            "last_run": "2026-04-18 00:20:06",
+            "input": 5,
+            "output": 6,
+            "input_size": 10775,
+            "output_size": 4700458,
             "input_types": {
                 "pdf": 1,
+                "jpg": 2,
                 "txt": 1,
-                "jpg": 1
+                "epub": 1
             },
             "output_types": {
-                "pdf": 1,
-                "jpg": 1,
-                "txt": 1
+                "pdf": 2,
+                "txt": 3,
+                "png": 1
             },
+            "input_type_sizes": {
+                "pdf": 19,
+                "jpg": 9153,
+                "txt": 191,
+                "epub": 1412
+            },
+            "output_type_sizes": {
+                "pdf": 4563465,
+                "txt": 320,
+                "png": 136673
+            },
+            "input_files": [
+                {
+                    "name": "folder1\\file1.pdf",
+                    "size": 19
+                },
+                {
+                    "name": "folder1\\file2.jpg",
+                    "size": 9153
+                },
+                {
+                    "name": "folder1\\note.txt",
+                    "size": 191
+                },
+                {
+                    "name": "folder2\\file2.jpg",
+                    "size": 0
+                },
+                {
+                    "name": "folder2\\sample_book.epub",
+                    "size": 1412
+                }
+            ],
+            "output_files": [
+                {
+                    "name": "folderA\\file1.pdf",
+                    "size": 4411313
+                },
+                {
+                    "name": "folderA\\note.txt",
+                    "size": 19
+                },
+                {
+                    "name": "folderB\\file3.pdf",
+                    "size": 152152
+                },
+                {
+                    "name": "folderB\\note.txt",
+                    "size": 290
+                },
+                {
+                    "name": "folderB\\notes.txt",
+                    "size": 11
+                },
+                {
+                    "name": "folderB\\ts3603.png",
+                    "size": 136673
+                }
+            ],
             "status": "SUCCESS"
         }
     }
