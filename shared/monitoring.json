@@ -1,0 +1,36 @@
+{
+    "servers": {
+        "Server-B": {
+            "last_run": "2026-04-13 23:21:26",
+            "input": 3,
+            "output": 3,
+            "input_types": {
+                "pdf": 1,
+                "txt": 1,
+                "jpg": 1
+            },
+            "output_types": {
+                "pdf": 1,
+                "jpg": 1,
+                "txt": 1
+            },
+            "status": "SUCCESS"
+        },
+        "Server-A": {
+            "last_run": "2026-04-13 23:21:12",
+            "input": 3,
+            "output": 3,
+            "input_types": {
+                "pdf": 1,
+                "txt": 1,
+                "jpg": 1
+            },
+            "output_types": {
+                "pdf": 1,
+                "jpg": 1,
+                "txt": 1
+            },
+            "status": "SUCCESS"
+        }
+    }
+}

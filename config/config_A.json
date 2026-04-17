@@ -1,0 +1,8 @@
+{
+  "common_json": "../shared/monitoring.json",
+  "server": {
+    "name": "Server-A",
+    "input_path": "../folders/ingestion_input",
+    "output_path": "../folders/ingestion_output"
+  }
+}
